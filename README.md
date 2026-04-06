@@ -44,7 +44,6 @@ La versión 3.1 representa una reingeniería completa del núcleo original, migr
    ```bash
    chmod +x neolinx.py
    ```
-   chmod +x neolinx.py
 
 ## Guía de Uso
 
@@ -54,8 +53,6 @@ Para iniciar la suite de auditoría, ejecute el siguiente comando desde la termi
    ```
 
 
-python neolinx.py
-
 Al finalizar cada operación, NeoLinx almacenará automáticamente los resultados en la carpeta .neolinx_reports/. Los archivos se nombran siguiendo el patrón objetivo_herramienta_fecha.txt para mantener un orden cronológico en la auditoría.
 
 ## Aviso Legal
@@ -63,5 +60,7 @@ Al finalizar cada operación, NeoLinx almacenará automáticamente los resultado
 NeoLinx es una herramienta diseñada exclusivamente para fines educativos y de auditoría ética. El uso de esta suite contra infraestructuras de red sin autorización previa y por escrito es responsabilidad única del usuario. El autor no asume responsabilidad por el uso indebido de la información recolectada ni por posibles daños derivados de la ejecución de escaneos activos en redes de terceros.
 
 Desarrollador: Linx
+
 Versión: 3.1
+
 Estado del Proyecto: Mantenimiento y Auditoría Perimetral
