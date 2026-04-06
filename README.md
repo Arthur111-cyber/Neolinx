@@ -34,18 +34,27 @@ La versión 3.1 representa una reingeniería completa del núcleo original, migr
 
 ## Instalación y Configuración
 
-1. Clonar o descargar el script principal `neolinx.py`.
-2. Instalar las dependencias necesarias a través del gestor de paquetes de Python:
+1. Instalar las dependencias necesarias a través del gestor de paquetes de Python:
    ```bash
    pip install requests dnspython python-whois
+   ```
 
-3.   Otorgar permisos de ejecución al archivo principal para permitir su uso como binario:
-    Bash
-    chmod +x neolinx.py
-4. Guía de Uso
+
+3. Otorgar permisos de ejecución al archivo principal para permitir su uso como binario:
+   ```bash
+   chmod +x neolinx.py
+   ```
+   chmod +x neolinx.py
+
+## Guía de Uso
+
 Para iniciar la suite de auditoría, ejecute el siguiente comando desde la terminal dentro del directorio del proyecto:
-    Bash
-    python neolinx.py
+   ```bash
+   python neolinx.py
+   ```
+
+
+python neolinx.py
 
 Al finalizar cada operación, NeoLinx almacenará automáticamente los resultados en la carpeta .neolinx_reports/. Los archivos se nombran siguiendo el patrón objetivo_herramienta_fecha.txt para mantener un orden cronológico en la auditoría.
 
@@ -54,5 +63,5 @@ Al finalizar cada operación, NeoLinx almacenará automáticamente los resultado
 NeoLinx es una herramienta diseñada exclusivamente para fines educativos y de auditoría ética. El uso de esta suite contra infraestructuras de red sin autorización previa y por escrito es responsabilidad única del usuario. El autor no asume responsabilidad por el uso indebido de la información recolectada ni por posibles daños derivados de la ejecución de escaneos activos en redes de terceros.
 
 Desarrollador: Linx
-Versión: 3.1 (Estable)
+Versión: 3.1
 Estado del Proyecto: Mantenimiento y Auditoría Perimetral
