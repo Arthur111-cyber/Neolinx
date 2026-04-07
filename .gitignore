@@ -1,4 +1,4 @@
-# Reportes de auditoría de NeoLinx (Privado)
+# Reportes de auditoría de NeoLinx
 .neolinx_reports/
 *.txt
 *.log
@@ -11,3 +11,5 @@ __pycache__/
 # Entornos virtuales
 venv/
 .env/
+
+.snapshots/1
